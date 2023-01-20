@@ -42,13 +42,8 @@ function processMenu() {
     icon: 'TwitterIcon',
   })
   chainMenus.push({
-    title: 'Github',
-    href: 'https://github.com/AoiNode/',
-    icon: 'MessageSquareIcon',
-  })
-  chainMenus.push({
     title: 'Github Ex',
-    href: 'https://github.com/AoiNode/explorer',
+    href: 'https://github.com/AoiNode/',
     icon: 'GithubIcon',
   })
 

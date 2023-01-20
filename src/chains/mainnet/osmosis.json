@@ -1,0 +1,25 @@
+{
+    "chain_name": "osmosis",
+    "coingecko": "osmosis",
+    "api": ["https://lcd.osmosis.zone", "https://lcd-osmosis.keplr.app", "https://api-osmosis-ia.cosmosia.notional.ventures"],
+    "rpc": ["https://rpc.osmosis.zone", "https://rpc-osmosis.keplr.app", "https://rpc-osmosis-ia.cosmosia.notional.ventures"],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "osmo",
+    "logo": "/logos/osmosis.jpg",
+    "assets": [{
+        "base": "uosmo",
+        "symbol": "OSMO",
+        "exponent": "6",
+        "coingecko_id": "osmosis", 
+        "logo": "/logos/osmosis.jpg"
+    },{
+        "base": "uatom",
+        "symbol": "ATOM",
+        "exponent": "6",
+        "coingecko_id": "cosmos", 
+        "logo": "/logos/cosmos.svg"
+    }]
+}

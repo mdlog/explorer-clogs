@@ -19,36 +19,36 @@ function processMenu() {
       title: 'blockchains',
       children: blockchains,
       tag: `${blockchains.length}`,
-      icon: 'https://ping.pub/logo.svg',
+      icon: 'https://explorer.aoinode.my.id/logo.svg',
     })
   }
   chainMenus.push({ header: 'LINKS' })
   if (isTestnet()) {
     chainMenus.push({
-      title: 'Mainnet Explorer',
-      href: 'https://ping.pub',
+      title: 'Aoi Explorer',
+      href: 'https://explorer.aoinode.my.id',
       icon: 'ChromeIcon',
     })
   } else {
     chainMenus.push({
-      title: 'Testnet Explorer',
-      href: 'http://testnet.ping.pub',
+      title: 'Website',
+      href: 'http://aoinode.my.id',
       icon: 'LifeBuoyIcon',
     })
   }
   chainMenus.push({
     title: 'Twitter',
-    href: 'https://twitter.com/ping_pub',
+    href: 'https://twitter.com/Aril031',
     icon: 'TwitterIcon',
   })
   chainMenus.push({
-    title: 'FAQ',
-    href: 'https://github.com/ping-pub/explorer/discussions',
+    title: 'Github',
+    href: 'https://github.com/AoiNode/',
     icon: 'MessageSquareIcon',
   })
   chainMenus.push({
-    title: 'Github',
-    href: 'https://github.com/ping-pub/explorer',
+    title: 'Github Ex',
+    href: 'https://github.com/AoiNode/explorer',
     icon: 'GithubIcon',
   })
 

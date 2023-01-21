@@ -3,7 +3,7 @@
     <b-card title="Thanks for donation">
       Your donation is really important for us to build better open source product.
       <div class="mt-1">
-        ERC20 Address:
+        ERC20 Address: 0x84352e6913317d82B1CE2dAf96EbF816aF48f843
       </div>
       <b-input-group>
         <b-input-group-prepend>

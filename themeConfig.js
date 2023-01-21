@@ -11,7 +11,7 @@ export const $themeConfig = {
   app: {
     appName: 'AoiNode', // Will update name in navigation menu (Branding)
     // eslint-disable-next-line global-require
-    appLogoImage: '/logox.svg', // Will update logo in navigation menu (Branding)
+    appLogoImage: '/public/logox.svg', // Will update logo in navigation menu (Branding)
   },
   layout: {
     isRTL: false,

@@ -1,0 +1,35 @@
+{
+    "chain_name": "rebus",
+    "coingecko": "",
+    "api": [
+            "https://rest.cosmos.directory/rebus",
+            "https://api.rebus.nodestake.top",
+            "https://api.mainnet.rebus.money:1317",
+            "https://api-rebus.nodeist.net"
+          ],
+    "rpc": [
+            "https://rpc.cosmos.directory/rebus",
+            "https://rpc.rebus.nodestake.top",
+            "https://api.mainnet.rebus.money:26657",
+            "https://rpc-rebus.nodeist.net"
+          ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.6",
+    "coin_type": 60,
+    "min_tx_fee": "3000000000000000",
+    "addr_prefix": "rebus",
+    "logo": "/logos/rebus.png",
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "keplr_price_step": {
+      "low": 0,
+      "average": 25000000000,
+      "high": 40000000000
+    },
+    "assets": [{
+        "base": "arebus",
+        "symbol": "rebus",
+        "exponent": 18,
+        "coingecko_id": "rebus",
+        "logo": "/logos/rebus.png"
+    }]
+}

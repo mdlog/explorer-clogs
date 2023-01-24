@@ -1,15 +1,7 @@
 {
     "chain_name": "planq",
-    "api": [
-            "https://rest.cosmos.directory/planq",
-            "https://api.planq.nodestake.top",
-            "https://rest.planq.network"
-          ],
-    "rpc": [
-            "https://rpc.cosmos.directory/planq",
-            "https://rpc.planq.nodestake.top",
-            "https://rpc.planq.network"
-          ],
+    "api": ["https://api.planq.cryptolog.space:443/"],
+    "rpc": ["https://rpc.planq.cryptolog.space:443/"],
     "snapshot_provider": "",
     "sdk_version": "0.46.3",
     "coin_type": "60",

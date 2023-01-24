@@ -9,9 +9,9 @@ export const $themeBreakpoints = {}
 // APP CONFIG
 export const $themeConfig = {
   app: {
-    appName: 'AoiNode', // Will update name in navigation menu (Branding)
+    appName: 'cryptolog space', // Will update name in navigation menu (Branding)
     // eslint-disable-next-line global-require
-    appLogoImage: '/logox.svg', // Will update logo in navigation menu (Branding)
+    appLogoImage: '/cropped-NEW-removebg-preview-TERBARU-1-1.png', // Will update logo in navigation menu (Branding)
   },
   layout: {
     isRTL: false,
